@@ -1,6 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 img {
     height: auto;
     width: 100%;
-    display: inline-block}
-nav {display: inline-block;}
-div {display: inline-block;}
+    display: inline-block;
+}
+nav {
+    background-color: deepskyblue;
+}
+ul {
+    margin: 0;
+}
