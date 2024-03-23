@@ -1,16 +1,16 @@
 .topnav{
     background-color: #b2e3df;
     color: white;
-    padding: 14px 16px;
-    overflow: hidden;
+    width: 100%;
+
 }
 
 .topnav{
-    float: left;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    margin-right: 50;
 }
 
 .topnav a:hover {
@@ -45,28 +45,32 @@ img{
       }
 }
 
-.h2{
+.h2 {
     margin-left: 30px;
 }
-   
+
 .TravelDazzle{
     float: left;
     padding-bottom: 50px;
+    margin: 20px 20px 15px 20px;
 }
 
-.Curative{
-    float: right;
+.curative{
+    float: left;
     padding-bottom: 50px;
+    margin: 20px 20px 15px 20px;
 }
 
 .Government{
     float: left;
     padding-bottom: 50px;
+    margin: 20px 20px 15px 20px;
 }
 
 .Animal{
-    float: right;
+    float: left;
     padding-bottom: 50px;
+    margin: 20px 20px 15px 20px;
 }
 
 nav {
@@ -84,4 +88,28 @@ ul {
 .h1{
     font-size: 50px;
     font-weight: 900;
+}
+.bottomnav{
+    background-color: #b2e3df;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottomnav{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bottomnav a:hover {
+    background-color: #84c9c3;
+    color: rgb(0, 0, 0);
+}
+
+.bottomnav a.active {
+    background-color: #84c9c3;
+   
 }
