@@ -10,7 +10,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    margin-right: 50;
+
 }
 
 .topnav a:hover {
@@ -112,4 +112,12 @@ ul {
 .bottomnav a.active {
     background-color: #84c9c3;
    
+}
+
+.h3 {
+    text-align: left;
+    padding:   110px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 500;
 }
