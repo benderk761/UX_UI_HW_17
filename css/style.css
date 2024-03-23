@@ -2,14 +2,34 @@ body {
     margin: 0;
     padding: 0;
 }
-img {
-    height: auto;
-    width: 100%;
-    display: inline-block;
+
+img{
+    float: left;
+    margin-right: 20px;
+    }
+
+.imageofme{
+    img {
+        float: left;
+        margin: 20px 20px 15px 20px;
+        max-width: 20%;
+        max-height: 20%;
+        border-radius: 50%;
+      }
+}
+
+.TravelDazzle{
+    
+        max-width: 20%;
+        max-height: 200px;
 }
 nav {
     background-color: deepskyblue;
 }
 ul {
     margin: 0;
+}
+.text{
+    margin-left: 30%;
+    
 }
