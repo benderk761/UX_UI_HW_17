@@ -1,16 +1,19 @@
 .topnav{
-    background-color: #b2e3df;
+    background-color: #73b4ae;
     color: white;
-    width: 100%;
 
 }
 
 .topnav{
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+     display: flex;
+     justify-content: flex-end;
+}
 
+.topnav a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .topnav a:hover {
@@ -30,45 +33,27 @@ body {
     font-size: 20px;
 }
 
-img{
-    float: left;
-    margin-right: 20px;
-}
-
-.imageofme{
-    img {
-        float: left;
-        margin: 20px 20px 15px 20px;
-        max-width: 20%;
-        max-height: 20%;
-        border-radius: 50%;
-      }
-}
 
 .h2 {
     margin-left: 30px;
 }
 
 .TravelDazzle{
-    float: left;
     padding-bottom: 50px;
     margin: 20px 20px 15px 20px;
 }
 
 .curative{
-    float: left;
     padding-bottom: 50px;
     margin: 20px 20px 15px 20px;
 }
 
 .Government{
-    float: left;
     padding-bottom: 50px;
     margin: 20px 20px 15px 20px;
 }
 
 .Animal{
-    float: left;
     padding-bottom: 50px;
     margin: 20px 20px 15px 20px;
 }
@@ -120,4 +105,30 @@ ul {
     display: inline-block;
     font-size: 30px;
     font-weight: 500;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.projectContent{
+    width: 70%;
+}
+.projectImg{
+    width: 29%;
+}
+.hero{
+    padding: 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #b2e3df;
+}
+.heroimage{
+width: 20%;
+border-radius: 50%;
+}
+.herocontent{
+    width: 50%;
 }
