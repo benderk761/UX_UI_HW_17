@@ -7,6 +7,7 @@
 .topnav{
      display: flex;
      justify-content: flex-end;
+     
 }
 
 .topnav a{
@@ -74,48 +75,27 @@ ul {
     font-size: 50px;
     font-weight: 900;
 }
-.bottomnav{
-    background-color: #b2e3df;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.bottomnav{
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.bottomnav a:hover {
-    background-color: #84c9c3;
-    color: rgb(0, 0, 0);
-}
-
-.bottomnav a.active {
-    background-color: #84c9c3;
-   
-}
-
 .h3 {
     text-align: left;
-    padding:   110px;
-    display: inline-block;
+    display: flex;
     font-size: 30px;
     font-weight: 500;
+    background-color: #b2e3df; 
+    justify-content: flex-start;
+    flex-direction: column; 
 }
 .project{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 5%;
 }
 .projectContent{
     width: 70%;
 }
 .projectImg{
     width: 29%;
+    padding: 5%;
 }
 .hero{
     padding: 100px 30px;
