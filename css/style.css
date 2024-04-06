@@ -26,6 +26,34 @@
     background-color: #84c9c3;
    
 }
+.mobileMenu{
+    display: none;
+}
+
+.mNavItem {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-bottom: 1px solid color #84c9c3;
+    color: #73b4ae;
+}
+
+.mNavItem.selected{
+    font-weight: bold;
+    color: #73b4ae;
+}
+.mobileMenu{
+    position: relative;
+}
+.mobileNav{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: white;
+    width: 100vw;
+    color: #84c9c3;
+    display: none;
+}
 
 body {
     margin: 0;
@@ -96,6 +124,13 @@ ul {
 .projectImg{
     width: 29%;
     padding: 5%;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.projectImg:hover{
+    opacity: .5;
+    cursor: pointer;
 }
 .hero{
     padding: 100px 30px;
@@ -111,4 +146,38 @@ border-radius: 50%;
 }
 .herocontent{
     width: 50%;
+}
+button{
+    position: relative;
+	padding: 15px;
+	background-color: #b2e3df;
+	border-radius: 16px;
+	bottom: 10px;
+	left: 200px;
+	width: 150px;
+    cursor: pointer;
+  }
+
+@media all and (max-width: 1400px){
+
+}
+
+@media all and (max-width: 992px){
+    
+}
+
+@media all and (max-width: 768px){
+    
+}
+
+@media all and (max-width: 576px) {
+    .mobileMenu {
+        display: block;
+    }
+    div.topnav{
+       display: none; 
+    }
+    .topnav{
+       padding: 20px 0; 
+    }
 }

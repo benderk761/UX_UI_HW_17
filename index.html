@@ -6,7 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./variables.css">
+<link rel="stylesheet" href="./css/style.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -19,6 +21,17 @@
             <a href="#Contact Me">Contact Me</a>
             <a href="#Resume">Resume</a>
         </div>
+        <div class="mobileMenu">
+            <a class="fa-solid fa-bars" id="navIcon"></a> 
+            <div class="mobileNav">
+            <a href="./index.html" class="mNavItem selected">Home</a>
+            <a href="#" class="mNavItem">Linked In</a>
+            <a href="#" class="mNavItem">About Me</a>
+            <a href="#" class="mNavItem">My Skills</a>
+            <a href="#" class="mNavItem">Contact Me</a>
+            <a href="#" class="mNavItem">Resume</a>
+            </div>
+        </div>
             <div class="hero">
                 <img class="heroimage" src="images/IMG_4554 copy.jpg" alt="picture of me"> 
                 <div class="herocontent">
@@ -30,16 +43,18 @@
           
      </header>  
      <section> 
+       
     <div>
         <h2 style="margin: 25px;">My Work</h2> 
          <div class="project">
             <img class="projectImg" src="images/travel dazzle app.png" alt="Travel Dazzle">
+        </div>
             <div class="projectContent">
                 <h1>Travel App Case Study</h1>
                 <p>Travel Dazzle was created to give busy people the tools and resources needed to plan and budget an amazing vacation with their family quickly and efficiently.</p>
             </div>
         </div>
-
+        <button>Read More</button>
         <div class="project">
             <div class="projectContent">
                 <h1>Curative the Art Therapy App</h1>
@@ -70,5 +85,7 @@
         <p>benderk761@gmail.com</p>
        
      </footer>
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+     <script src="./js/nav.js"></script>
 </body>
 </html>
