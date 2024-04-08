@@ -118,6 +118,12 @@ ul {
     align-items: center;
     margin-left: 5%;
 }
+.project:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.project:hover .projectImg{
+    opacity: .5;
+}
 .projectContent{
     width: 70%;
 }
@@ -131,6 +137,22 @@ ul {
 .projectImg:hover{
     opacity: .5;
     cursor: pointer;
+}
+.projectCta{
+    width: 29%;
+    padding: 20px;
+    background-position: center;
+    min-height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectCta:hover .cta{
+display: block;
+}
+.pr1{
+    background-image: url(../images/travel\ dazzle\ app.png);
 }
 .hero{
     padding: 100px 30px;
@@ -148,15 +170,15 @@ border-radius: 50%;
     width: 50%;
 }
 button{
-    position: relative;
 	padding: 15px;
 	background-color: #b2e3df;
 	border-radius: 16px;
-	bottom: 10px;
-	left: 200px;
 	width: 150px;
     cursor: pointer;
   }
+.cta{
+    display: none;
+}
 
 @media all and (max-width: 1400px){
 
